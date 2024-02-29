@@ -50,7 +50,6 @@ h2 {
 }
 
 .game {
-    border: 1px solid red;
     width: 430px;
     height: 430px;
     display: flex;
@@ -68,6 +67,7 @@ h2 {
     align-items: center;
     justify-content: center;
     background-color: #fff;
+
     font-size: 3em;
     transform: rotateY(180deg);
     transition: 0.25s;
@@ -89,5 +89,5 @@ h2 {
 
 .boxOpen::after,
 .boxMatch::after {
-    text-transform: rotateY(180deg);
+    transform: rotateY(180deg);
 }
